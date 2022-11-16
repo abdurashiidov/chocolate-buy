@@ -7,7 +7,7 @@ let defaults = 0
 let ozgaruvchi = 0
 let narx = 0
 minus.disabled = true 
-// ! plus 
+// ! plus button
 plus.addEventListener("click", () => {
     minus.disabled = false
     ozgaruvchi += 1
