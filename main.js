@@ -21,8 +21,10 @@ minus.addEventListener("click", () => {
         minus.disabled = true
     } else{
         ozgaruvchi -= 1
+        narx -= 2
+        neshta.textContent = ozgaruvchi
+        narxi.textContent = narx
     }
-    neshta.textContent = ozgaruvchi
 
 })
 
