@@ -25,7 +25,6 @@ minus.addEventListener("click", () => {
         neshta.textContent = ozgaruvchi
         narxi.textContent = narx
     }
-
 })
 
 
