@@ -26,6 +26,3 @@ minus.addEventListener("click", () => {
         narxi.textContent = narx
     }
 })
-
-
-
