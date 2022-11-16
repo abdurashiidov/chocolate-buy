@@ -7,6 +7,7 @@ let defaults = 0
 let ozgaruvchi = 0
 let narx = 0
 minus.disabled = true 
+
 // ! plus button
 plus.addEventListener("click", () => {
     minus.disabled = false
@@ -15,6 +16,7 @@ plus.addEventListener("click", () => {
     neshta.textContent = ozgaruvchi
     narxi.textContent = narx
 })
+
 // ! minus button
 minus.addEventListener("click", () => {
     if(ozgaruvchi == defaults){
